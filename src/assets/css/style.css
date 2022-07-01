@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Work Sans';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Work Sans', sans-serif;
+}
+
+section.register-page {
+    min-height: 100vh;
+    background: #52A9AD;
+}
+
+.provider-btn {
+    border: 1px solid #E5E5E5 !important;
+    border-radius: 5px;
+}
+
+.provider-btn span {
+    color: #868686;
+}
+
+.register-img {
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+    left: 100px;
+}
+
+.register-area-parent {
+    min-height: 100vh !important;
+    border-radius: 44px 0px 0px 44px
+}
+
+.language-selector {
+    text-align: right;
+
+}
+
+.language-selector select {
+    border: 0px !important;
+    color: #AAA9A9;
+}
+
+.create-account {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 35px;
+    letter-spacing: 0.28em;
+    color: #2D2D2D;
+    margin-bottom: 25px;
+}
+
+.logo-text {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.alter-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #868686;
+    margin-top: 25px;
+}
+
+
+
+.input-custom {
+    background: #F3F3F3;
+    border-radius: 10px;
+    border: 0px;
+    color: #868686;
+    padding: 12px 10px 12px 15px;
+
+}
+
+.input-custom:focus {
+    background: #F3F3F3;
+    border: none;
+    box-shadow: none;
+}
+
+.register-btn {
+    background: #52A9AD;
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.register-btn:hover {
+    background: #52A9AD;
+}
+
+.link {
+    text-decoration: none;
+    color: #52A9AD;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #52A9AD;
+}
