@@ -165,9 +165,9 @@ a:hover {
 
 .overlay3 {
     position: absolute;
-    right: 0;
     z-index: 5;
-    margin-top: 130px;
+    right: 0;
+    bottom: 210px;
 }
 
 .overlay3 span {
@@ -176,7 +176,7 @@ a:hover {
     padding: 10px 20px;
     font-size: 15px;
     line-height: 35px;
-    border-right: 6px solid #fff;
+    border-right: 9px solid #fff;
 
 
 }
@@ -210,7 +210,7 @@ a:hover {
     position: absolute;
     left: 0;
     z-index: 5;
-    margin-top: 250px;
+    bottom: 80px;
 
 
 }
@@ -240,12 +240,18 @@ a:hover {
 
 .qtys {
     color: #52A9AD;
+    font-size: 15px;
+}
+
+.play {
+    color: #52A9AD;
+    font-size: 13px;
 }
 
 
 .header a {
     color: #000 !important;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 
@@ -257,9 +263,11 @@ a:hover {
 
 .cardback {
     background: #fff;
-    border: 1px solid #f1f1f1;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
+    box-shadow: 5px 4px 17px 0px rgba(0, 0, 0, 0.08);
+
+
 }
 
 .myform {
@@ -363,9 +371,13 @@ a:hover {
 
 
 .twocardback {
-    box-shadow: 5px 4px 17px 0px rgba(0, 0, 0, 0.08);
+
     border-radius: 5px;
     padding: 10px;
+    background: #fff;
+    box-shadow: 5px 4px 17px 0px rgba(0, 0, 0, 0.08);
+
+
 
 }
 
@@ -376,9 +388,12 @@ a:hover {
 
 .twocardback span {
     color: rgba(116, 116, 116, 1);
+
 }
 
-
+.twocardbackactive .active {
+    border-right: 2px solid #52A9AD !important;
+}
 
 
 .shape3 {
@@ -411,13 +426,8 @@ a:hover {
 
 
 .myherosection {
-    /* background: rgba(87, 142, 251,0.9); */
-    /* background-image: url("../images/bg1.png"); */
+    background: #52A9AD;
     padding: 80px 0px;
-    background-image:url("../images/bg1.png"), linear-gradient(to right, rgba(83, 164, 190), rgba(82, 169, 173));
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .myherosection label {
@@ -459,7 +469,37 @@ a:hover {
     max-height: 40px;
 }
 
+.mybg {
+    /* background: url('img/gradiant-bg.png'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid rgba(82, 169, 173, 0.4);
+    border-left: none;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-top: 80px;
+}
 
+.mybg2 {
+    /* background: url('img/gradiant-bg.png'); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-left: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+
+.customarrow {
+    background: #fff;
+    color: #6C6B6B;
+    border-radius: 50%;
+    padding: 17px 15px;
+    box-shadow: 0px 0px 33px rgba(0, 0, 0, 0.11);
+}
 
 
 
@@ -497,7 +537,7 @@ button {
     background: #fff;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('../images/logo.png');
+    /* background-image: url(img/logo.png); */
     background-size: 150px;
 
 
@@ -1374,7 +1414,6 @@ button {
 .backsection {
 
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    /* url(img/bg.webp) */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
