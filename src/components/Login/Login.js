@@ -40,8 +40,8 @@ const Login = () => {
                                     <h2 className='text-dark create-account fw-bold'>Sign In</h2>
                                 </div>
 
-                                <div className="login-providers d-flex justify-content-start">
-                                    <div className='me-5'>
+                                <div className="login-providers d-flex justify-content-center">
+                                    <div className='me-lg-5'>
                                         <button className='py-2 px-3 provider-btn'>
                                             <img className='me-2' src={google} alt="" />
                                             <span>Sign up with Google</span>
@@ -82,7 +82,7 @@ const Login = () => {
                                     </Form>
 
                                 </div>
-                                <p className='mt-4'>Don't have an account ? <span><a className='link' className='link' href="#">Sign up</a></span></p>
+                                <p className='mt-4'>Don't have an account ? <span><a className='link' href="#">Sign up</a></span></p>
                             </div>
                         </div>
                     </div>

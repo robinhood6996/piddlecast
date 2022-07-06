@@ -40,8 +40,8 @@ const Register = () => {
                                     <h2 className='text-dark create-account fw-bold'>Create Account</h2>
                                 </div>
 
-                                <div className="login-providers d-flex justify-content-start">
-                                    <div className='me-5'>
+                                <div className="login-providers d-flex justify-content-center">
+                                    <div className='me-lg-5'>
                                         <button className='py-2 px-3 provider-btn'>
                                             <img className='me-2' src={google} alt="" />
                                             <span>Sign up with Google</span>

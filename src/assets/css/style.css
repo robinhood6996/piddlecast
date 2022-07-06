@@ -21,6 +21,7 @@ p {
 section.register-page {
     min-height: 100vh;
     background: #52A9AD;
+    overflow: hidden;
 }
 
 .provider-btn {
@@ -34,9 +35,9 @@ section.register-page {
 
 .register-img {
     position: absolute;
-    width: 100%;
-    max-width: 500px;
-    left: 100px;
+    max-width: 35%;
+    left: 0;
+    top: 50%;
 }
 
 .register-area-parent {
@@ -116,3 +117,37 @@ section.register-page {
     text-decoration: none;
     color: #52A9AD;
 }
+
+
+    @media screen and (max-width:991px) {
+        p{
+            font-size: 14px;
+        }
+        .logo-text{
+            font-size: 16px;
+        }
+        .logo{
+            max-width: 38%;
+        }
+        .register-left{
+           min-height:300px;
+        }
+        .register-img {
+            position: relative;
+            left: 30%;
+            top: 20%;
+        }
+
+        .login-providers{
+            flex-direction: column;
+        }
+        .login-providers button{
+            width: 100%;
+        }
+        .login-providers button:first-child{
+            margin-bottom: 15px;
+        }
+        .register-area{
+            width: 88%;
+        }
+    }
