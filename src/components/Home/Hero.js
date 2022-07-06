@@ -2,7 +2,7 @@ import React from 'react';
 import spotify from '../../assets/images/social/spotify.png';
 import apple from '../../assets/images/social/apple-podcasts.png';
 import youtube from '../../assets/images/social/youtube.png';
-import podCast from '../../assets/images/podcast.png';
+import podCast from '../../assets/images/hero1.png';
 import { Link } from 'react-router-dom';
 
 
@@ -12,7 +12,7 @@ const Hero = () => {
         <div class="col-md-12 myherosection">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <label>Mike Levis</label>
                         <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="4" cy="4" r="4" fill="white" />
@@ -58,7 +58,7 @@ const Hero = () => {
                     </div>
 
 
-                    <div class="col-md-6">
+                    <div class="col-md-7">
                         <center>
                             <img src={podCast} alt="" class="img-fluid" />
                         </center>
