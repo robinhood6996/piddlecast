@@ -5,7 +5,7 @@ import episod3 from '../../assets/images/episods/3.png'
 import episod4 from '../../assets/images/episods/4.png'
 const Episods = () => {
     return (
-        <div class="col-md-12 fmenuhead pt-5">
+        <div class="col-md-12 fmenuhead ">
             <div class="container-fluid">
 
                 <div class="uk-position-relative uk-visible-toggle uk-light mt-4" tabindex="-1" uk-slider="autoplay-interval:3000;">

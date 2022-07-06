@@ -411,8 +411,13 @@ a:hover {
 
 
 .myherosection {
-    background: #52A9AD;
+    /* background: rgba(87, 142, 251,0.9); */
+    /* background-image: url("../images/bg1.png"); */
     padding: 80px 0px;
+    background-image:url("../images/bg1.png"), linear-gradient(to right, rgba(83, 164, 190), rgba(82, 169, 173));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .myherosection label {

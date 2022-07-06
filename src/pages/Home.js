@@ -18,6 +18,12 @@ const Home = () => {
                         <div class="col-md-11 p-0">
                             <Hero />
 
+                            <div className="position-relative w-100 after-hero-con">
+                                <div className='container-fluid after-hero'>
+                                </div>
+
+                            </div>
+
                             <div class="container-fluid">
                                 <Episods />
                                 <PopularEpisods />
