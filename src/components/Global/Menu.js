@@ -3,7 +3,7 @@ import React from 'react';
 const Menu = () => {
     return (
 
-        <div class="col-md-1 borderright p-0 d-none d-md-block" style={{ height: "300vh" }}>
+        <div class="col-md-1 borderright left__menu p-0 d-none d-md-block">
             <div class="borderbottom p-3">
                 <center>
                     <a href="/">

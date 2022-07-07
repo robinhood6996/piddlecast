@@ -15,7 +15,7 @@ const Home = () => {
                     <div class="row">
                         <Menu />
 
-                        <div class="col-md-11 p-0">
+                        <div class="col-md-11 p-0 background__bg">
                             <Hero />
 
                             <div className="position-relative w-100 after-hero-con">
@@ -24,7 +24,7 @@ const Home = () => {
 
                             </div>
 
-                            <div class="container-fluid">
+                            <div class="container-fluid gradient__bg">
                                 <Episods />
                                 <PopularEpisods />
                                 <Categories />

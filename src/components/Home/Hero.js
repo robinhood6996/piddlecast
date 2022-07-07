@@ -2,7 +2,7 @@ import React from 'react';
 import spotify from '../../assets/images/social/spotify.png';
 import apple from '../../assets/images/social/apple-podcasts.png';
 import youtube from '../../assets/images/social/youtube.png';
-import podCast from '../../assets/images/hero1.png';
+import podCast from '../../assets/images/hero4.png';
 import { Link } from 'react-router-dom';
 
 
@@ -12,11 +12,14 @@ const Hero = () => {
         <div class="col-md-12 myherosection">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <label>Mike Levis</label>
-                        <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <span className='px-2 mb-1'>
+                        <svg width="6" height="6" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="4" cy="4" r="4" fill="white" />
                         </svg>
+                        </span>
+                      
                         <label>personal branding</label>
                         <h2>Everyday is<br />Chance to Learn<br /> New Things</h2>
                         <div class="shape4"></div>
@@ -31,7 +34,7 @@ const Hero = () => {
                             <a href="newpodcast.php" class="inactive">See all Episodes</a>
                         </div>
 
-                        <div class="mt-4">
+                        <div class="mt-5">
                             <svg width="600" height="104" viewBox="0 0 684 104" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect width="684" height="104" rx="10" fill="white" />
                                 <path d="M56 40.5566V41.4934C55.9974 42.3852 55.5379 43.2104 54.7891 43.6681L25.4982 61.0991C23.7309 62.1697 22.8145 62.1697 22.0291 61.7013L21.2109 61.2329C20.4817 60.7877 20.0251 59.993 20 59.1251V22.9249C20.0026 22.0331 20.4621 21.2078 21.2109 20.7502L22.0291 20.2818C22.8145 19.8134 23.7309 19.8134 26.0218 21.1851L54.7891 38.3819C55.5379 38.8396 55.9974 39.6648 56 40.5566Z" fill="#222222" />
@@ -58,10 +61,11 @@ const Hero = () => {
                     </div>
 
 
-                    <div class="col-md-7">
-                        <center>
-                            <img src={podCast} alt="" class="img-fluid" />
-                        </center>
+                    <div class="col-md-6">
+                    <img src={podCast} alt="" class="img-fluid" />
+                        {/* <center>
+                           
+                        </center> */}
                     </div>
 
 

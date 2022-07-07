@@ -5,7 +5,7 @@ import popular3 from '../../assets/images/blog/blog3.png';
 const PopularEpisods = () => {
     return (
         <div class="col-md-12 fmenuhead mybg pb-5">
-            <div class="container-fluid">
+            <div class="container-fluid mybg__inner">
                 <div class="uk-position-relative uk-visible-toggle uk-light mt-4" tabindex="-1" uk-slider="autoplay-interval:3000;">
 
                     <div class="row align-items-center pt-5">

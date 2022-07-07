@@ -166,8 +166,10 @@ a:hover {
 .overlay3 {
     position: absolute;
     z-index: 5;
-    right: 0;
-    bottom: 210px;
+    right: 10px;
+    bottom: 189px;
+    overflow: hidden;
+   
 }
 
 .overlay3 span {
@@ -176,7 +178,8 @@ a:hover {
     padding: 10px 20px;
     font-size: 15px;
     line-height: 35px;
-    border-right: 9px solid #fff;
+    /* border-right: 9px solid #fff; */
+    border-radius: 0px 0px 13px 0px;
 
 
 }
@@ -411,7 +414,7 @@ a:hover {
     height: 10px;
     width: 260px;
     margin-left: 2px;
-    margin-top: -35px;
+    margin-top: -25px;
 }
 
 
@@ -426,8 +429,11 @@ a:hover {
 
 
 .myherosection {
-    background: #52A9AD;
-    padding: 80px 0px;
+    padding:  80px 0 185px;
+    background-image:url("../images/bg3.png"), linear-gradient(to right, rgba(83, 164, 190), rgba(82, 169, 173));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .myherosection label {
@@ -480,6 +486,50 @@ a:hover {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     margin-top: 80px;
+    position: relative;
+}
+
+.mybg::before{
+
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 70%;
+    background: rgba(250, 211, 186, 1);
+    border-radius: 50%;
+    left: 0;
+    top: 25%;
+    filter: blur(500px);
+    opacity: 0.5;
+    -webkit-filter: blur(150px);
+    -webkit-background: rgba(250, 211, 186, 1);
+    -webkit-opacity: 1;
+    
+}
+
+.mybg::after{
+
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 70%;
+    background: rgb(250, 139, 70);
+    border-radius: 50%;
+    right: 0;
+    top: 25%;
+    filter: blur(500px);
+    opacity: 0.5;
+    -webkit-filter: blur(150px);
+    -webkit-background: rgb(250, 139, 70);
+    -webkit-opacity: 1;
+    z-index: 1;
+    
+}
+
+.mybg__inner{
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
 }
 
 .mybg2 {
@@ -501,6 +551,10 @@ a:hover {
     box-shadow: 0px 0px 33px rgba(0, 0, 0, 0.11);
 }
 
+
+.padding__right{
+    padding-right: 5px;
+}
 
 
 
@@ -1509,4 +1563,8 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
+}
+
+.padding__left{
+    padding-left: 5px;
 }
