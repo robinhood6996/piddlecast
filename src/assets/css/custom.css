@@ -169,7 +169,7 @@ a:hover {
     right: 10px;
     bottom: 189px;
     overflow: hidden;
-   
+
 }
 
 .overlay3 span {
@@ -213,7 +213,7 @@ a:hover {
     position: absolute;
     left: 0;
     z-index: 5;
-    bottom: 80px;
+    bottom: 90px;
 
 
 }
@@ -228,13 +228,8 @@ a:hover {
 
 }
 
-
-
-
-
-
 .header {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #000;
     line-height: 24px;
     font-size: 12px;
@@ -252,15 +247,16 @@ a:hover {
 }
 
 
-.header a {
+.popular-title {
     color: #000 !important;
-    font-size: 17px;
+    font-size: 22px !important;
+    line-height: 30px;
 }
 
 
 .header p {
     color: rgba(0, 0, 0, 0.6);
-    font-size: 11px;
+    font-size: 13px;
 }
 
 
@@ -429,12 +425,14 @@ a:hover {
 
 
 .myherosection {
-    padding:  80px 0 185px;
-    background-image:url("../images/bg3.png"), linear-gradient(to right, rgba(83, 164, 190), rgba(82, 169, 173));
+    padding: 80px 0 185px;
+    background-image: url("../images/bg3.png"), linear-gradient(to right, rgba(83, 164, 190), rgba(82, 169, 173));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
 
 .myherosection label {
     text-transform: uppercase;
@@ -489,7 +487,7 @@ a:hover {
     position: relative;
 }
 
-.mybg::before{
+.mybg::before {
 
     content: "";
     position: absolute;
@@ -504,10 +502,10 @@ a:hover {
     -webkit-filter: blur(150px);
     -webkit-background: rgba(250, 211, 186, 1);
     -webkit-opacity: 1;
-    
+
 }
 
-.mybg::after{
+.mybg::after {
 
     content: "";
     position: absolute;
@@ -523,10 +521,10 @@ a:hover {
     -webkit-background: rgb(250, 139, 70);
     -webkit-opacity: 1;
     z-index: 1;
-    
+
 }
 
-.mybg__inner{
+.mybg__inner {
     position: relative;
     z-index: 10;
     overflow: hidden;
@@ -552,7 +550,7 @@ a:hover {
 }
 
 
-.padding__right{
+.padding__right {
     padding-right: 5px;
 }
 
@@ -1559,12 +1557,60 @@ button {
 .breadcrumb-create {
     /* background: linear - gradient(0deg, rgba(82, 169, 173, 1), rgba(82, 169, 173, 1)); */
     background-color: #52a9ad;
-    padding: 55px 0px;
+    padding: 140px 0px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
 
-.padding__left{
+.padding__left {
     padding-left: 5px;
+}
+
+.episod-title {
+    min-height: 50px;
+}
+
+.mybread a:hover {
+    color: white;
+}
+
+.breadcrumb-bg {
+    background-image: url("../images/bg1.png"), linear-gradient(to right, rgba(83, 164, 190), rgba(82, 169, 173));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+span.author-name {
+    color: black;
+    font-size: 15px;
+    font-family: 'Work Sans';
+}
+
+.date-episod {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.mt-2.episod-title a {
+    font-size: 20px;
+}
+
+.cool-label {
+    position: absolute;
+    z-index: 5;
+    right: 10px;
+    bottom: 111px;
+    overflow: hidden;
+}
+
+.cool-label span {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+    line-height: 35px;
+    /* border-right: 9px solid #fff; */
+    border-radius: 0px 0px 13px 0px;
 }

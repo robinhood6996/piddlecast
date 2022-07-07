@@ -3,6 +3,7 @@ import Header from '../Global/Header';
 import Menu from '../Global/Menu';
 import bg from '../../assets/images/bg.png';
 import { Link } from 'react-router-dom';
+import BreadCrumb from '../Global/BreadCrumb';
 const NewPodcast = () => {
     return (
         <>
@@ -12,21 +13,7 @@ const NewPodcast = () => {
                     <div class="row">
                         <Menu />
                         <div class="col-md-11 p-0">
-
-                            {/* <!---------Start Breadcum------------> */}
-                            <div class="col-md-12 breadcrumb-create" >
-                                {/* , url(img/ hero - back.png) */}
-                                <center>
-                                    <strong class="mhead">Create New Podcast</strong>
-                                </center>
-
-                                <div class="text-center mybread">
-                                    <li><Link to={'/'}>Home</Link></li>
-                                    <li><span uk-icon="icon: chevron-right; ratio: 1"></span></li>
-                                    <li><span>Create New Podcast</span></li>
-                                </div>
-                            </div>
-                            {/* <!---------End Breadcum------------> */}
+                            <BreadCrumb heading={"Create New Podcast"} firstLink={"Home"} secondLink={"Create New Podcast"} />
 
 
                             <div class="container pt-5">
