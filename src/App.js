@@ -6,6 +6,8 @@ import Login from './components/Login/Login';
 import Home from './pages/Home';
 import CreatePodCast from './pages/CreatePodCast';
 import ShowPodcasts from './pages/ShowPodcasts';
+import MyEpisods from './pages/MyEpisods';
+import EditPodcasts from './pages/EditPodcasts';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/create" element={<CreatePodCast />} />
         <Route path="/show-podcasts" element={<ShowPodcasts />} />
+        <Route path="/my-episods" element={<MyEpisods />} />
+        <Route path="/edit-podcast" element={<EditPodcasts />} />
       </Routes>
     </BrowserRouter >
   );

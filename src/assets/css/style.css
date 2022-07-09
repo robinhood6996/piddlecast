@@ -180,3 +180,93 @@ section.register-page {
             width: 88%;
         }
     }
+
+    button.add-podcast {
+        background: #52A9AD;
+        color: white;
+        outline: none;
+        border: none;
+        padding: 11px 28px;
+        border-radius: 5px;
+    }
+
+    .color-base{
+        color: #52A9AD !important;
+    }
+
+    button.follow-btn {
+        border: 2px solid #52A9AD;
+        border-radius: 5px;
+        padding: 4px 28px;
+        background: white;
+    }
+
+    .mybg-liked{
+        background:  radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        background-blend-mode: overlay, normal;
+        backdrop-filter: blur(80px) !important;
+    }
+
+    .col-md-4.change-image {
+        background: #ffffff;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    button.mt-2.change-image-btn {
+        background: #52A9AD;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 9px 131px;
+        border-radius: 5px;
+    }
+    
+    img.change-img {
+        border-radius: 5px;
+    }.col-md-4.change-image {
+    background: #ffffff;
+    padding: 5px;
+    text-align: center;
+}
+
+button.mt-2.change-image-btn {
+    background: #52A9AD;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 9px 131px;
+    border-radius: 5px;
+}
+
+img.change-img {
+    border-radius: 5px;
+}
+
+.col-md-4.change-image {
+    background: #ffffff;
+    padding: 5px;
+    text-align: center;
+}
+
+button.mt-2.change-image-btn {
+    background: #52A9AD;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 9px 131px;
+    border-radius: 5px;
+}
+
+img.change-img {
+    border-radius: 5px;
+}
+
+button.change-audio {
+    border: none;
+    background: #00abaf;
+    color: white;
+    padding: 10px 32px;
+    border-radius: 5px;
+    font-size: 16px;
+}

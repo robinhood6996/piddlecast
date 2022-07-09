@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo.png'
 const Header = () => {
     return (
@@ -26,8 +27,8 @@ const Header = () => {
 
                         <div class="col-md-6 d-none d-md-block">
                             <div class="logmenu">
-                                <li><a href="/">Sign Up</a></li>
-                                <li><a href="/" class="active">Login</a></li>
+                                <li><Link to="/register">Sign Up</Link></li>
+                                <li><Link to="/login" class="active">Login</Link></li>
                             </div>
                         </div>
 
