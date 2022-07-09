@@ -31,7 +31,7 @@ const Hero = () => {
 
                         <div class="mt-4">
                             <Link to={'/create'} class="actives">Start listening</Link>
-                            <a href="newpodcast.php" class="inactive">See all Episodes</a>
+                            <Link to={'/show-podcasts'} href="newpodcast.php" class="inactive">See all Episodes</Link>
                         </div>
 
                         <div class="mt-5">

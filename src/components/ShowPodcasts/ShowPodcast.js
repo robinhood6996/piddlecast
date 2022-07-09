@@ -2,6 +2,7 @@ import React from 'react';
 import BreadCrumb from '../Global/BreadCrumb';
 import Menu from '../Global/Menu';
 import CoolestMasai from './CoolestMasai';
+import Recents from './Recents';
 
 const ShowPodcast = () => {
     return (
@@ -14,6 +15,7 @@ const ShowPodcast = () => {
                         {/* gradient__bg */}
                         <div class="container-fluid ">
                             <CoolestMasai />
+                            <Recents />
                         </div>
                     </div>
                 </div>
