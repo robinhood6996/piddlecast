@@ -46,7 +46,7 @@ const Recents = () => {
         }
     ]
     return (
-        <div class="col-md-12 fmenuhead mybg pb-5">
+        <div class="col-md-12 fmenuhead mybg gradient__bg pb-5">
             <div class="container-fluid mybg__inner">
                 <div class="uk-position-relative uk-visible-toggle uk-light mt-4" tabindex="-1" uk-slider="autoplay-interval:3000;">
 

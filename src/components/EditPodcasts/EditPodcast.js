@@ -1,6 +1,7 @@
 import BreadCrumb from "../Global/BreadCrumb";
 import Menu from "../Global/Menu";
 import changeImage from '../../assets/images/changeImage.png';
+import OtherPodcasts from "./OtherPodcasts";
 const EditPodcast = () => {
 
 
@@ -24,17 +25,21 @@ const EditPodcast = () => {
                                 <form class="row myform">
                                     <div class="form-group col-md-12">
                                         <label>Podcast Title</label>
-                                        <input type="text" name="" placeholder="Enter Podcast Title" class="form-control mt-2 textfill" />
+                                        <input type="text" name=""  value={'Finding Moments Of Joy In A Challenging Y'} class="form-control mt-2 textfill" />
                                     </div>
 
                                     <div class="form-group col-md-12 mt-3">
                                         <label>Podcast Description</label>
-                                        <textarea rows="8" name="" placeholder="Enter Description" class="form-control mt-2"></textarea>
+                                        <textarea rows="5" name="" value={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only"}  class="form-control mt-2">
+                                            
+                                        </textarea>
                                     </div>
 
-                                    <div class="form-group row mt-4 audio-area">
-                                        <div className="col-md-8">
-                                            <div>
+                                    <div class="form-group col-md-12 mt-4 audio-area">
+                                       <div className="row p-2">
+                                       <div className="col-md-8">
+                                            <div className="audio-uploaded d-flex justify-content-between align-items-center">
+                                                <div>
                                                 <span className="pe-2">
                                                     <svg width="16" height="16" viewBox="0 0 28 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M28 15.6622V16.3759C27.9979 17.0554 27.6406 17.6841 27.0582 18.0328L4.27636 31.3136C2.90182 32.1293 2.18909 32.1293 1.57818 31.7724L0.941818 31.4155C0.374678 31.0764 0.0195588 30.4708 0 29.8096V2.22848C0.00205851 1.54899 0.359446 0.920256 0.941818 0.571574L1.57818 0.214701C2.18909 -0.142171 2.90182 -0.142171 4.68364 0.902955L27.0582 14.0053C27.6406 14.354 27.9979 14.9827 28 15.6622Z" fill="#222222"/>
@@ -43,6 +48,12 @@ const EditPodcast = () => {
                                                 <span>
                                                   My Favorite Jhon Sina hits
                                                 </span>
+                                                </div>
+                                                <div  className="duration-audio">
+                                                   
+                                                        2:45
+                                                  
+                                                </div>
                                             </div>
                                         </div>
                                         <div className="col-md-4">
@@ -57,10 +68,13 @@ const EditPodcast = () => {
                                                 </span>
                                             </button>
                                         </div>
+                                       </div>
                                     </div>
 
-                                    <div class="col-md-12 mt-4">
-                                        <button type="submit" class="mybtn">Update</button>
+                                    <div class="mt-3 update-btn">
+                                        <div>
+                                        <button type="submit" className="upload-btn">Update</button>
+                                        </div>
                                         
                                     </div>
 
@@ -68,6 +82,7 @@ const EditPodcast = () => {
                                 </div>
                                </div>
                             </div>
+                            <OtherPodcasts/>
                     </div>
                 </div>
             </div>

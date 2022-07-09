@@ -249,7 +249,7 @@ img.change-img {
     text-align: center;
 }
 
-button.mt-2.change-image-btn {
+.change-image-btn {
     background: #52A9AD;
     border: none;
     outline: none;
@@ -268,5 +268,38 @@ button.change-audio {
     color: white;
     padding: 10px 32px;
     border-radius: 5px;
+    font-size: 16px;
+}
+
+.audio-area {
+    background: #f2f2f2;
+    border-radius: 5px;
+    border: 2px dotted #00aeb2;
+}
+.audio-uploaded {
+    background: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.duration-audio {
+    color: #848484;
+}
+
+.update-btn {
+    display: flex;
+    justify-content: end !important;
+}
+
+
+button.upload-btn {
+    background: #00aeb2;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-weight: 400;
     font-size: 16px;
 }
